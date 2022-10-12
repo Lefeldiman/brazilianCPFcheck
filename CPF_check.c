@@ -4,7 +4,7 @@ int  main()
 {
   long long int cpf,d1,d2,cont,n9,s,aux,n,dc1,dc2;
  
-  printf("Type your CPF \ Digite o CPF ...: ");
+  printf("Type your CPF, Digite o CPF ...: ");
   scanf("%lld",&cpf);
   
   d2=(cpf%10);
@@ -52,16 +52,16 @@ int  main()
 
   if(dc2==d2) 
     {
-      printf("Valid\Valido CPF");
+      printf("Valid , Valido CPF");
     }
   else 
     { 
-      printf("Invalid\Invalido CPF");
+      printf("Invalid, Invalido CPF");
     }
     }  
   else 
     {
-      printf("Invalid\Invalido CPF");
+      printf("Invalid, Invalido CPF");
     } 
   getch();
   return 0;
